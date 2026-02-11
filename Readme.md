@@ -1,11 +1,6 @@
-\# MAC-Unlearn: A Differentially Private Federated
-
-Edge Unlearning Framework to secure MAC
-
-De-randomization underlying 6G
+\# MAC-Unlearn: A Differentially Private Federated Edge Unlearning Framework to secure MAC De-randomization underlying 6G
 
 This repository contains the implementation and analysis code for the paper.
-
 
 
 \## Dataset
@@ -17,7 +12,6 @@ Place `training\_ready\_wifi\_dataset.csv` in the project root before running ex
 
 
 \## Setup
-
 
 
 ```bash
