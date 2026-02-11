@@ -20,7 +20,9 @@ pip install -r requirements.txt
 
 
 
-Data: Place training\_ready\_wifi\_dataset.csv in data/
+\## Data:
+
+Place training\_ready\_wifi\_dataset.csv in data/
 
 
 
