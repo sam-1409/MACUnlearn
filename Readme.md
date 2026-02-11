@@ -26,13 +26,13 @@ pip install -r requirements.txt
 
 
 
-Data: Place training\_ready\_wifi\_dataset.csv in data/
+\## Data
+
+Place training\_ready\_wifi\_dataset.csv in data/
 
 
 
-
-
-Run Experiment:
+\## Run Experiment:
 
 
 \# Baselines
@@ -51,17 +51,17 @@ python experiments/run\_fed\_grid.py --epsilons inf 8 4 2 --local-epochs 1 3 5
 
 python experiments/run\_unlearning.py \\
 
-&nbsp;   --data data/training\_ready\_wifi\_dataset.csv \\
+         --data data/training\_ready\_wifi\_dataset.csv \\
 
-&nbsp;   --forget-client 0 \\
+         --forget-client 0 \\
 
-&nbsp;   --retrain-epochs 12 \\
+         --retrain-epochs 12 \\
 
-&nbsp;   --num-shards 4
+         --num-shards 4
 
 
 
-\# Attacks (provide a trained model)
+\## Attacks (provide a trained model)
 
 python experiments/run\_attacks.py --model-path results/models/fed\_model.pth
 
